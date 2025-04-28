@@ -1,9 +1,11 @@
+
 import React from 'react'
 
-function index() {
+function home() {
   return (
     <div>
-          {/* Preloader */}
+       
+    {/* Preloader */}
 	<div className="spinner-wrapper">
         <div className="spinner">
             <div className="bounce1"></div>
@@ -115,8 +117,7 @@ function index() {
                 </div> {/* end of col */}
                 <div className="col-lg-7">
                     <div className="image-container">
-                    <img className="img-fluid" src="images/intro-office.jpg" alt="alternative" />
-
+                        <img className="img-fluid" src="images/intro-office.jpg" alt="alternative"/>
                     </div> {/* end of image-container */}
                 </div> {/* end of col */}
             </div> {/* end of row */}
@@ -183,7 +184,7 @@ function index() {
             <div className="row">
                 <div className="col-lg-12">
                     <div className="section-title">SERVICES</div>
-                    <h2>Choose The Service Package<br /> That Suits Your Needs</h2>
+                    <h2>Choose The Service Package<br/> That Suits Your Needs</h2>
                 </div> {/* end of col */}
             </div> {/* end of row */}
             <div className="row">
@@ -192,7 +193,7 @@ function index() {
                     {/* Card */}
                     <div className="card">
                         <div className="card-image">
-                            <img className="img-fluid" src="images/services-1.jpg" alt="alternative" />
+                            <img className="img-fluid" src="images/services-1.jpg" alt="alternative"/>
                         </div>
                         <div className="card-body">
                             <h3 className="card-title">Off The Ground Off The Ground</h3>
@@ -218,7 +219,7 @@ function index() {
                     {/* Card */}
                     <div className="card">
                         <div className="card-image">
-                            <img className="img-fluid" src="images/services-2.jpg" alt="alternative" />
+                            <img className="img-fluid" src="images/services-2.jpg" alt="alternative"/>
                         </div>
                         <div className="card-body">
                             <h3 className="card-title">Accelerated Growth</h3>
@@ -588,12 +589,12 @@ function index() {
                             <div className="help-block with-errors"></div>
                         </div>
                         <div className="form-group">
-                            <input type="text" className="form-control-input" id="lphone" name="lphone" required />
+                            <input type="text" className="form-control-input" id="lphone" name="lphone" required/>
                             <label className="label-control" for="lphone">Phone</label>
                             <div className="help-block with-errors"></div>
                         </div>
                         <div className="form-group">
-                            <input type="email" className="form-control-input" id="lemail" name="lemail" required />
+                            <input type="email" className="form-control-input" id="lemail" name="lemail" required/>
                             <label className="label-control" for="lemail">Email</label>
                             <div className="help-block with-errors"></div>
                         </div>
@@ -690,7 +691,7 @@ function index() {
             </div> {/* end of col */}
             <div className="col-lg-4">
                 <h3>Online Banking</h3>
-                <hr className="line-heading" />
+                <hr className="line-heading"/>
                 <h6>Strategy Development</h6>
                 <p>Need a solid foundation for your business growth plans? Aria will help you manage sales and meet your current needs</p>
                 <p>By offering the best professional services and quality products in the market. Don't hesitate and get in touch with us.</p>
@@ -1124,8 +1125,10 @@ function index() {
         </div> {/* end of container */}
     </div> {/* end of form-2 */}
     {/* end of contact */}
+
+
     </div>
   )
 }
 
-export default index;
+export default home
